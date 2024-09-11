@@ -1,6 +1,8 @@
 <script setup>
 import Opening from './components/Opening.vue';
 import Couple from './components/Couple.vue';
+import Acara from './components/Acara.vue';
+import Quotes from './components/Quotes.vue';
 import {ref} from 'vue';
 
 const isOpen = ref(false);
@@ -9,8 +11,10 @@ const isOpen = ref(false);
 <template>
   <div class="w-screen min-h-screen bg-black">
     <Opening @open="isOpen=true" :isOpen="isOpen"></Opening>
-    <section id="content" :class="[isOpen ? 'flex' : 'hidden']" class="max-w-xl mx-auto h-screen bg-white items-center justify-center transition-all duration-[3000]">
+    <section id="content" :class="[isOpen ? 'flex' : 'hidden']" class="max-w-xl mx-auto bg-white items-center flex flex-col justify-center transition-all duration-[3000]">
       <Couple/>
+      <Acara/>
+      <Quotes/>
     </section>
   </div>
 </template>
