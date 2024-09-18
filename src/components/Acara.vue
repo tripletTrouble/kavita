@@ -2,7 +2,8 @@
 
 <template>
   <div
-    class="min-h-screen flex flex-col pt-10 items-center w-full overflow-hidden bg-gradient-to-b relative from-orange-200 to-gray-300"
+    class="min-h-screen flex flex-col py-10 items-center w-full overflow-hidden bg-gradient-to-b relative from-orange-200 to-gray-300"
+    id="event"
   >
     <img src="./../assets/floral.png" alt="Floral" class="h-36" />
     <h2 class="font-cursive text-3xl font-bold mt-5">Waktu & Tempat</h2>
@@ -77,7 +78,7 @@
           />
         </svg>
         <p class="font-semibold text-center">
-          Pukul 10.00 WIB <br />
+          Pukul 9.30 WIB <br />
           s/d selesai
         </p>
       </div>
@@ -100,6 +101,7 @@
       <a
         href="https://www.google.com/maps/place/Gedung+Lestari+Rahayu/@-7.5762116,110.8188335,16.51z/data=!4m6!3m5!1s0x2e7a167b29fd7567:0x78e84a884eb30989!8m2!3d-7.5759558!4d110.8193738!16s%2Fg%2F11c615785j?entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D"
         class="px-3 py-2 rounded-md bg-sky-500 text-white mt-3"
+        target="blank"
       >
         Buka Maps
       </a>

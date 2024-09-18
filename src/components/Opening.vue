@@ -2,6 +2,14 @@
 const props = defineProps({
     isOpen: {
         type: Boolean
+    },
+    playMedia: {
+      type: Function,
+      required: true
+    },
+    penerima: {
+      type: String,
+      required: true
     }
 })
 </script>
@@ -27,12 +35,12 @@ const props = defineProps({
         <p class="text-center text-xl mt-2">Wedding Invitation</p>
         <div class="mt-7 flex items-center flex-col">
           <p class="text-center mb-3">Kepada Bapak/Ibu/Saudara/i</p>
-          <p class="font-bold text-lg text-center mb-7">Sebuah Nama</p>
+          <p class="font-bold text-lg text-center mb-7">{{ penerima }}</p>
           <p class="text-center w-[75%]">
             Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i
             untuk menghadiri acara pernikahan kami.
           </p>
-          <button type="button" @click="$emit('open')" class="bg-sky-600/80 text-white font-bold p-3 rounded-md mt-7">Buka Undangan</button>
+          <button type="button" @click="playMedia" class="bg-sky-600/80 text-white font-bold p-3 rounded-md mt-7">Buka Undangan</button>
         </div>
       </div>
     </section>

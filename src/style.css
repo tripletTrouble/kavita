@@ -8,6 +8,7 @@
 @layer components {
   * {
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth
   }
 
   .font-arabic {
