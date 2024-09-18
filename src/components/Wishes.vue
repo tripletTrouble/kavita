@@ -20,7 +20,7 @@ function parseDate(date) {
 
 async function fetchComment() {
   await axios
-    .get("http://192.168.1.28:8000/api/comments")
+    .get("https://undangan.wacana-belaka.com/api/comments")
     .then((res) => (comments.value = res.data))
     .catch((err) => {
       alert(err.response.data.message);
@@ -29,7 +29,7 @@ async function fetchComment() {
 
 async function send() {
   await axios
-    .post("http://192.168.1.28:8000/api/comments", formData)
+    .post("https://undangan.wacana-belaka.com/api/comments", formData)
     .then((res) => {
       fetchComment();
       formData.name = null;
