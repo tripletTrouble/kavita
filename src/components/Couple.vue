@@ -11,8 +11,8 @@
         <p class="my-5">dengan</p>
         <p class="text-2xl font-cursive">Deri Prasetyo, S.Akun.</p>
         <p class="text-center w-[70%] mt-2 text-[15px]">Putra dari Bapak Sutarto dan Ibu Warsiti</p>
-        <div class="w-full">
-            <img src="./../assets/couple.webp" alt="Moeslem Couple" class="h-48 pt-4 relative bottom-0 -left-[20px]">
+        <div class="w-full mt-auto">
+            <img src="./../assets/couple.webp" alt="Moeslem Couple" class="h-48">
         </div>
     </div>
 </template>
