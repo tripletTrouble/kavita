@@ -7,10 +7,12 @@
         <p class="text-center mt-5 font-semibold">Assalamu'alaikum Wr. Wb.</p>
         <p class="text-center mt-5 w-[80%] text-[15px]">Dengan memohon rahmat dan ridho Allah SWT kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
         <p class="mt-7 text-2xl font-cursive">Kavita Febriani Putri, S.Si.</p>
-        <p class="text-center w-[70%] mt-2 text-[15px]">Putri dari Bapak Dwi Agus Santoso dan Ibu Nanik Sri Haryani</p>
+        <p class="text-center w-[70%] mt-2 text-[15px]">Putri dari Bapak Dwi Agus Santoso dan Ibu Sri Haryani (Nanik)</p>
         <p class="my-5">dengan</p>
         <p class="text-2xl font-cursive">Deri Prasetyo, S.Akun.</p>
         <p class="text-center w-[70%] mt-2 text-[15px]">Putra dari Bapak Sutarto dan Ibu Warsiti</p>
-        <img src="./../assets/couple.webp" alt="Moeslem Couple" class="h-48 absolute bottom-0 -left-[20px]">
+        <div class="w-full">
+            <img src="./../assets/couple.webp" alt="Moeslem Couple" class="h-48 pt-4 relative bottom-0 -left-[20px]">
+        </div>
     </div>
 </template>

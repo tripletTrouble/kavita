@@ -33,16 +33,16 @@ onMounted(() => {
 
 <template>
   <div
-    class="bg-white bg-opacity-80 fixed bottom-5 left-[50%] -translate-x-[50%] z-30 py-4 px-5 rounded-lg"
+    class="bg-white bg-opacity-80 fixed bottom-2 left-[50%] -translate-x-[50%] z-30 py-4 px-5 rounded-lg"
     :class="[isOpen ? 'block' : 'hidden']"
   >
-    <div class="relative flex gap-8">
+    <div class="relative flex text-sm gap-5">
       <a href="#couple" class="font-bold">Couple</a>
       <a href="#event" class="font-bold">Event</a>
       <a href="#wishes" class="font-bold">Wishes</a>
       <a href="#quotes" class="font-bold">Quotes</a>
       <button
-        class="absolute -right-10 -top-10 bg-pink-400 p-2 rounded-lg text-sm z-30"
+        class="absolute -right-10 -top-10 bg-pink-400 p-1 rounded-lg text-sm z-30"
         @click="toggleMedia"
       >
         {{ isPlaying ? "Pause" : "Play" }}

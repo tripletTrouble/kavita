@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden h-screen flex items-start pt-20 justify-center bg-gradient-to-b from-gray-100 to-white"
+    class="relative overflow-hidden min-h-screen flex items-start py-20 justify-center bg-gradient-to-b from-gray-100 to-white"
     id="quotes"
   >
     <div class="p-4 border-4 border-black w-[80%] z-10 rounded-lg">
